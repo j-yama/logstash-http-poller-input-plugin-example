@@ -1,0 +1,16 @@
+- pipeline.id: cinii
+  pipeline.batch.size: 125
+  path.config: "/usr/share/logstash/pipeline/cinii.logstash.conf"
+  pipeline.workers: 1
+- pipeline.id: elastic-rss
+  pipeline.batch.size: 125
+  path.config: "/usr/share/logstash/pipeline/elastic-rss.logstash.conf"
+  pipeline.workers: 1
+- pipeline.id: jjwd
+  pipeline.batch.size: 125
+  path.config: "/usr/share/logstash/pipeline/jjwd.logstash.conf"
+  pipeline.workers: 1
+- pipeline.id: nasa
+  pipeline.batch.size: 125
+  path.config: "/usr/share/logstash/pipeline/nasa.logstash.conf"
+  pipeline.workers: 1
